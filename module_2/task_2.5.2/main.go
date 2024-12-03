@@ -55,6 +55,23 @@ func main() {
 Альтернативное решение
 
 func main() {
+	var s, r string
+	fmt.Scan(&s)
+	for _, i := range s {
+		r = string(i) + r
+	}
+	if s == r {
+		fmt.Println("Палиндром")
+	} else {
+		fmt.Println("Нет")
+	}
+}
+*/
+
+/*
+Альтернативное решение
+
+func main() {
   str, _ := bufio.NewReader(os.Stdin).ReadString('\n')
   text := []rune(str)
   for i, j := range text{
