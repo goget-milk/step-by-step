@@ -17,6 +17,27 @@ func main() {
 	}
 }
 
+// AI решение
+
+// func main() {
+// 	var n int
+// 	fmt.Scan(&n)
+
+// 	if n == 0 {
+// 		fmt.Print(0)
+// 		return
+// 	}
+
+// 	var result string
+// 	for n > 0 {
+// 		digit := n % 10
+// 		result = fmt.Sprint(digit*digit) + result
+// 		n = n / 10
+// 	}
+
+// 	fmt.Print(result)
+// }
+
 /*
 Альтернативное решение
 

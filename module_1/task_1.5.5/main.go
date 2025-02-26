@@ -7,12 +7,14 @@ import "fmt"
 */
 
 func main() {
-	var n int
+	// var n int
 
-	fmt.Scan(&n)
+	// fmt.Scan(&n)
 
-	// n := 2010
+	n := 2010
 
 	fmt.Println(n % 100 / 10)
+	fmt.Println("Hello! World")
 
 }
+

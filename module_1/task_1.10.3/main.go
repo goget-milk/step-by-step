@@ -8,7 +8,6 @@ import "fmt"
 во второй строке -- n чисел, входящих в данную последовательность.
 */
 
-
 func main() {
 	var n int
 	fmt.Scan(&n)
@@ -20,5 +19,5 @@ func main() {
 			sum += x
 		}
 	}
-	
+	fmt.Println(sum)
 }
