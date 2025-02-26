@@ -2,5 +2,7 @@
   "name": "test",
   "age": 18,
   "gender": "male",
-  "hobbies": ["swimming", "reading"]
+  "hobbies": ["swimming", "reading"],
+  "guthub": "add some text from github",
+  "change": "change main"
 }
