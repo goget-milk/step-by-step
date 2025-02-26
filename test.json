@@ -2,5 +2,7 @@
   "name": "test",
   "age": 18,
   "gender": "male",
-  "hobbies": ["swimming", "reading"]
+  "hobbies": ["swimming", "reading"],
+  "changes": "locale changes",
+  "main": "lockale main"
 }
